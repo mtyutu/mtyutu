@@ -1,26 +1,16 @@
-# problem-102-java-004-001
-Module 102
-Topic 004: Inheritance, Composition and Polymorphism
-Problem 001: Toy Robot 1
+# Problem - Toy Robot
 
-## Getting Started
-This project is a `Java` project using `maven` as build tool.
+* Modify your `robot.py` and other modules from *Toy Robot 4* to solve the problem as stated in the topic content.
+* You can run the program using the instructions in *To Run* below.
+* You can test technical correctness by running the unit tests as in the section *To Test* below.
 
-The structure is as follow:
-* `src/main/java` - in here is some skeleton code that you must use as starting point for the problem.
-* `src/test/java` - in here are unit tests code that you must complete and extend (your unittests will also be reviewed)
-* `src/test/java/za/co/wethinkcode/lms/tests` - the files in this directory are special and should _not be edited by you_. These are the LMS tests that will need to succeed against your code as well. The LMS system will use the original (unedited) tests to test your submissions.
+### To Run
 
-### IntelliJ
-To open it in `IntelliJ` IDE:
-1. _File_ -> _New_ -> _Project from Existing Sources..._
-1. Select the directory where this code has been checked out to by the LMS
-1. Choose _External Model_ as *Maven*
+* `python3 robot.py`
+* follow the input prompts to get the desired output
 
-## Build, Test & Run
-You may use IntelliJ to run your code and tests, but alternatively you can use the Maven build tool:
-* First ensure you are in the root directory of the project
-* To compile your code, run: `mvn compile` 
-* To run the tests: `mvn test`
-* To run your application: `mvn compile exec:java`
+### To Test
 
+* To run all the unittests: `python3 -m unittest tests/test_main.py`
+* To run a specific step's unittest, e.g step *1*: `python3 -m unittest tests.test_main.MyTestCase.test_step1`
+* _Note_: at the minimum, these (*unedited*) tests must succeed before you may submit the solution for review.
